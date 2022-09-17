@@ -1,12 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="description"
+        content="Encuentra lo que estas buscando en este maravilloso hotel de lujo, si queres pasar las mejores vacaciones este es tu lugar">
+    <meta name="keywords"
+        content=" hotel, risort, habitaciones, comodidad, casino, salones, eventos, gastronomia, pileta, desayuno, cafe, atencion 24hs, reserva, calidad, confort, gym, spa">
+    <title>Hotel Thiers Resort</title>
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/hotels.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/habitaciones.html">Habitaciones</a>
+                        <a class="nav-link" href="./pages/gastronomia.html">Gastronomia</a>
+                        <a class="nav-link" href="./pages/entretenimiento.html">Entretenimiento</a>
+                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="#pie">PIE</a>
+                        <div class="socialArriba">
+                            <a href="https://es-la.facebook.com"><img src="./img/facebook.png" alt="facebook"></a>
+                            <a href="https://www.instagram.com"><img src="./img/instagram.png" alt="instagram"></a>
+                            <a href="https://twitter.com/home?lang=es"><img src="./img/twitter.png" alt="twitter"></a>
+                            <a href="https://www.whatsapp.com/"><img src="./img/whatsapp.png" alt="whatsapp"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Carrusel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/entretenimiento.jpg" class="d-block w-100" alt="Entretenimiento">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Entretenimiento</h5>
+                        <p>Las mejores maquinas y las mas tecnologicas para una mayor diversion.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/9.jpg" class="d-block w-100" alt="desayuno">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Desayuno</h5>
+                        <p>Todo al alcance de tu mano.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/lobbyHotel.jpg" class="d-block w-100" alt="lobby hotel">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Lobby del Hotel</h5>
+                        <p>Todas las comodidades que necesitas para las mejores vacaciones de tu vida!.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- fin carrrusel -->
+        <section class="hero">
+            <h1>Hotel Thiers Resort</h1>
+            <p>En este hotel te brindamos todas las comodidades que necesites, como wifi GRATIS, atencion 24hs, gym, y
+                muchisimas cosas mas que te van a encantar.</p>
+            <a class="btn btn-outline-dark" href="./pages/galeria.html">Galeria</a>
+        </section>
+        <section class="fotoDerecha">
+            <img src="./img/habitaciones.jpg" alt="habitaciones">
+            <div>
+                <h2>Habitaciones</h2>
+                <p>Nunca vas a sentar una comodidad tan alta como con nuestras habitaciones</p>
+                <a class="btn btn-outline-success" href="./pages/habitaciones.html">Mas Info.</a>
+            </div>
+        </section>
+        <section class="fotoIzquierda">
+            <img src="./img/comida.jpg" alt="gastronomia">
+            <div>
+                <h2>Gastronomia</h2>
+                <p>En nuestra gastronomia descubrirás una gran variedad de sabores provenientes de la gastronomía
+                    alemana</p>
+                <a class="btn btn-outline-success" href="./pages/gastronomia.html">Mas Info.</a>
+            </div>
+        </section>
+        <section class="fotoDerecha">
+            <img src="./img/entretenimiento.jpg" alt="entretenimiento">
+            <div>
+                <h2>Entretenimiento</h2>
+                <p>Veni a divertirte a nuestro CASINO incorporado al hotel, nunca te va a faltar divercion.</p>
+                <a class="btn btn-outline-success" href="./pages/entretenimiento.html">Mas Info.</a>
+            </div>
+        </section>
+        <section class="comodidadesFondo">
+            <h2>Amenities</h2>
+            <div class="comodidades">
+                <div>
+                    <img src="./img/gym.png" alt="logo gym">
+                    <p>GYM Interno y Externo</p>
+                </div>
+                <div>
+                    <img src="./img/spa.png" alt="logo spa">
+                    <p>SPA</p>
+                </div>
+                <div>
+                    <img src="./img/restaurante.png" alt="logo restaurante">
+                    <p>Restaurante</p>
+                </div>
+                <div>
+                    <img src="./img/desayuno.png" alt="logo desayuno">
+                    <p>Desayuno Diario</p>
+                </div>
+                <div>
+                    <img src="./img/atencion.png" alt="logo atencion">
+                    <p>Atencion 24H</p>
+                </div>
+            </div>
+            <div class="comodidades">
+                <div>
+                    <img src="./img/pileta.png" alt="logo pileta">
+                    <p>Pileta Climatizada</p>
+                </div>
+                <div>
+                    <img src="./img/reuniones.png" alt="logo sala de reuniones">
+                    <p>Sala de Reuniones</p>
+                </div>
+                <div>
+                    <img src="./img/casino.png" alt="logo casino">
+                    <p>CASINO</p>
+                </div>
+                <div>
+                    <img src="./img/computadora.png" alt="logo sala de computacion">
+                    <p>Sala de Computacion</p>
+                </div>
+                <div>
+                    <img src="./img/wifi.png" alt="logo wifi">
+                    <p>WIFI GRATIS!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="pie">
+        <div>
+            <div>
+                <img src="./img/llamanos.png" alt="logo telefono">
+                <h3>LLamanos</h3>
+                <p>+54 9 299 579 9543</p>
+                <p>+54 9 299 789 0945</p>
+                <p>+54 9 299 544 5432</p>
+            </div>
+            <div>
+                <img src="./img/ubicacion.png" alt="logo ubicacion">
+                <h3>Ubicacion</h3>
+                <p>Berliner Str., 63067 Offenbach am Main, Alemania.</p>
+                <a href="https://goo.gl/maps/KCeMWQsynMBCtBe59">Ver en el mapa</a>
+            </div>
+            <div>
+                <img src="./img/email.png" alt="logo email">
+                <h3>Escribinos</h3>
+                <p>hotelthiersresort@gmail.com</p>
+            </div>
+            <div class="seguinos">
+                <img src="./img/redsocial.png" alt="redes sociales">
+                <h3>Seguinos</h3>
+                <div class="social">
+                    <a href="https://es-la.facebook.com"><img src="./img/facebook.png" alt="facebook">Facebook</a>
+                    <a href="https://www.instagram.com"><img src="./img/instagram.png" alt="instagram">Instagram</a>
+                    <a href="https://twitter.com/home?lang=es"><img src="./img/twitter.png" alt="twitter">Twitter</a>
+                    <a href="https://www.whatsapp.com/"><img src="./img/whatsapp.png" alt="whatsapp">Whatsapp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/bootstrap.js"></script>
 </body>
+
 </html>

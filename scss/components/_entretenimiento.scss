@@ -1,0 +1,105 @@
+.casinoTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    margin: 30px;
+}
+.casinoFoto{
+    img{
+        height: 650px;
+        width: 800px;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+.salones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        width: 90%;
+        height: 700px;
+        margin: 10px;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+        margin-bottom: 30px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:1134px){
+    .casinoFoto{
+        div{
+            flex-direction: column;
+            padding: 20px;
+            div{
+                p{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:905px){
+    .casinoFoto{
+        img{
+            height: 550px;
+            width: 700px;
+        }
+    }
+    .salones{
+        img{
+            width: 90%;
+            height: 500px;
+        }
+    }
+}
+
+@media screen and (max-width:718px){
+    .casinoFoto{
+        img{
+            height: 450px;
+            width: 500px;
+        }
+    }
+    .salones{
+        img{
+            width: 90%;
+            height: 400px;
+        }
+    }
+}
+
+@media screen and (max-width:515px){
+    .casinoFoto{
+        img{
+            height: 350px;
+            width: 400px;
+        }
+    }
+    .salones{
+        img{
+            width: 90%;
+            height: 330px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    div{
+        align-items: flex-start;
+        h6{
+            font-weight: 700;
+        }
+    }
+}
+
+main{
+    section{
+        padding: 20px;
+    }
+}
+
+.contacto{
+    div{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .mapa{
+        flex-direction: column;
+    }
+}

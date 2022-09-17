@@ -1,0 +1,81 @@
+.fotoDerechaRestaurante{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    img{
+        height: 450px;
+        width: 650px;
+        box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+        -webkit-box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+        -moz-box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+}
+
+.fotoIzquierdaDesayuno{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    img{
+        height: 450px;
+        width: 650px;
+        box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+        -webkit-box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+        -moz-box-shadow: 11px 13px 19px 0px rgba(0,0,0,0.4);
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .fotoDerechaRestaurante{
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .fotoIzquierdaDesayuno{
+        flex-direction: column;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:648px){
+    .fotoDerechaRestaurante{
+        img{
+            height: 250px;
+            width: 450px;
+        }
+    }
+    
+    .fotoIzquierdaDesayuno{
+        img{
+            height: 250px;
+            width: 450px;
+        }
+    }
+}
+
+@media screen and (max-width:440px){
+    .fotoDerechaRestaurante{
+        img{
+            height: 190px;
+            width: 290px;
+        }
+    }
+    .fotoIzquierdaDesayuno{
+        img{
+            height: 190px;
+            width: 290px;
+        }
+    }
+}
