@@ -50,3 +50,45 @@
         transform: scale(1.05);
     }
 }
+
+
+@media screen and (max-width:558px){
+    .cajasHabitaciones{
+        div{
+            h2{
+                margin: 10px;
+            }
+            p{
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            img{
+                margin-top: 15px;
+                height: 300px;
+                width: 450px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:459px){
+    .cajasHabitaciones{
+        div{
+            img{
+                height: 250px;
+                width: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:344px){
+    .cajasHabitaciones{
+        div{
+            img{
+                height: 150px;
+                width: 250px;
+            }
+        }
+    }
+}
